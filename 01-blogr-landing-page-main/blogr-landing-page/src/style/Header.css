@@ -1,0 +1,36 @@
+.header-transparent .navbar {
+    background-color: transparent !important; 
+    box-shadow: none;
+  }
+  
+.header-transparent .container-fluid {
+    max-width: 1200px; 
+    margin: auto; 
+  }
+  
+.header-transparent .navbar-brand,
+.header-transparent .nav-link {
+    color: white ; 
+  }
+  
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5); 
+  }
+  
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='rgba(255, 255, 255, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>"); 
+  }
+
+.navbar-brand {
+    font-size: 2rem; 
+    font-weight: bold; 
+    margin-right: 3rem; 
+  }
+
+.navbar-nav .nav-item {
+    margin-right: 2rem; 
+  }
+  
+.navbar-nav .nav-item:last-child {
+    margin-right: 0; 
+  }
